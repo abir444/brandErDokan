@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.branderdokan.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+
+        <ImageButton
+            android:id="@+id/imageButtonA"
+            android:scaleType="fitXY"
+
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:orientation="vertical"
+
+        android:src="@drawable/aaa" />
+        <ImageButton
+            android:id="@+id/imageButtonB"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/bbb" />
+        <ImageButton
+            android:id="@+id/imageButtonC"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/ccc" />
+        <ImageButton
+            android:id="@+id/imageButtonD"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/ddd" />
+        <ImageButton
+            android:id="@+id/imageButtonE"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/eee" />
+        <ImageButton
+            android:id="@+id/imageButtonF"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/fff" />
+        <ImageButton
+            android:id="@+id/imageButtonG"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/ggg" />
+        <ImageButton
+            android:id="@+id/imageButtonH"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/hhh" />
+        <ImageButton
+            android:id="@+id/imageButtonI"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/iii" />
+        <ImageButton
+            android:id="@+id/imageButtonJ"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/jjj" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/ab" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/ac" />
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/ad" />
+        <ImageButton
+            android:id="@+id/imageButton4"
+
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:onClick="browser"
+            android:src="@drawable/af" />
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/b" />
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/c" />
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/d" />
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/e" />
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/f" />
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/g" />
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/gh" />
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/h" />
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/i" />
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/ij" />
+      <ImageButton
+            android:id="@+id/imageButton15"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/j" />
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            app:srcCompat="@drawable/k" />
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/kl" />
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/l" />
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/m" />
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/mn" />
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/n" />
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            app:srcCompat="@drawable/o" />
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/p" />
+
+        <ImageButton
+            android:id="@+id/imageButton29"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/w" />
+        <ImageButton
+            android:id="@+id/imageButton30"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/x" />
+        <ImageButton
+            android:id="@+id/imageButton31"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/y" />
+
+        <ImageButton
+            android:id="@+id/imageButton33"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/a" />
+
+        <ImageButton
+            android:id="@+id/imageButton26"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/s" />
+        <ImageButton
+            android:id="@+id/imageButton27"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/t" />
+        <ImageButton
+            android:id="@+id/imageButton28"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/v" />
+
+        <ImageButton
+            android:id="@+id/imageButton24"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/q" />
+        <ImageButton
+            android:id="@+id/imageButton25"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:onClick="browser"
+            android:src="@drawable/r" />
+
+
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+</ScrollView>
